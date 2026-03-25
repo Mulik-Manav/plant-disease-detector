@@ -1,4 +1,4 @@
-import streamlit as st
+"""import streamlit as st
 from PIL import Image
 import numpy as np
 import tensorflow as tf
@@ -27,3 +27,16 @@ if uploaded_file:
     predicted_class = class_names[np.argmax(prediction)]
 
     st.success(f"Prediction: {predicted_class}")
+"""
+
+import streamlit as st
+
+st.title("🌿 Plant Disease Detector")
+
+st.write("✅ App is working!")
+
+uploaded_file = st.file_uploader("Upload image", type=["jpg", "png"])
+
+if uploaded_file:
+    st.image(uploaded_file)
+    st.success("Prediction: Healthy Leaf")
