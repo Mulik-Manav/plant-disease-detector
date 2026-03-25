@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load model
-model = tf.keras.models.load_model("model/model.h5")
+model = tf.keras.models.load_model("model/Plant_Model.h5")
 
 # Class labels (EDIT based on your dataset)
 class_names = ["Healthy", "Powdery Mildew", "Rust"]
