@@ -1,0 +1,9 @@
+tensorflow==2.5.0
+numpy
+scipy
+notebook
+tensorflow-addons
+tensorflow-model-optimization
+pandas
+
+
